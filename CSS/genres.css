@@ -1,0 +1,412 @@
+body{
+    background-color: black;
+}
+
+
+
+.contenair{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+/* div.conte{
+    width: 100vw;
+    height: 140vh;
+    background-color: black;
+} */
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+label #toggle{
+    display: none;
+}
+
+nav{
+
+    width: 100%;
+    height: 100px;
+    background: aqua;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    top: 0;
+    position: fixed;
+    z-index: 8;
+}
+input[type="checkbox"]{
+    display: none;
+}
+nav .main_pages{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .main_pages a{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+nav a:hover{
+    background: rgba(255, 255, 255, 0.753);
+}
+label{
+    display: none;
+}
+.monicone{
+    width: 25px;
+    height: 25px;
+}
+@media all and (max-width: 991px){
+    nav a:hover{
+        background: rgba(255, 255, 255, 0.753);
+        transition: 2s ease-in-out;
+        transform: scale(2,1);
+    }
+    nav{
+        height: 60px;
+    }
+    nav .main_pages{
+        display: none;
+    }
+    nav .main_pages{
+        display: none;
+        flex-direction: column;
+        background-color: aqua;
+        height: 320px;
+    }
+    nav .main_pages a{
+          width: 50%;
+    }
+    label{
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: black;
+        cursor: pointer;
+    }
+    #toggle:checked + .main_pages{
+        display: flex;
+    }
+}
+.grand-logo{
+    box-shadow: 11px 3px 152px 70px rgba(0,0,0,0.81);
+    -webkit-box-shadow: 11px 3px 152px 70px rgba(0,0,0,0.81);
+    -moz-box-shadow: 11px 3px 152px 70px rgba(0,0,0,0.81);
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.newsbare{
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-top: 50px;
+}
+
+span{
+    font-size: 2em;
+    font-family: 'Medium', Arial, sans-serif;
+    color: white;
+}
+.rech{
+    display: block;
+}
+
+
+.ligne-galerie{
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    grid-template-columns: repeat(4, 1fr); 
+    margin: 10px auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenu{
+    width: 300px;
+    margin: 20px;
+}
+
+.contenu img{
+    width: 100%;
+    height: 200px;
+/*     border-radius: 50px; */
+}
+.noms{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 200;
+    margin-left: 6vw;
+}
+div.conte{
+    width: 100%;
+    background-color: black;
+}
+.titre{
+    color: rgba(255, 255, 255, 0.596);
+    margin-left: 6vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rect1{
+    display: grid;
+    width: 100%;
+    height: 50px;
+    max-width: 1400px;
+    grid-template-columns: 100%;
+    background-color: aqua;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.rect1 span{
+    margin: 0 auto;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footer-logo img {
+    height: 50px;
+  }
+  
+  .footer-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .footer-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+.footer-links ul li a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+  
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+.copi{
+    font-size: 1.2rem;
+}
+a .s-media img:hover{
+    transform: scale(1.4);
+    transition: transform 150ms ease-in-out;
+}
+.s-media{
+    float: right;
+    margin-top: -2px;
+}
+.coping{
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+}
+
+@media all and (max-width: 991px){
+    .s-media{
+        margin-top: 55px;
+    }
+
+    .coping{
+        margin-top: -25px;
+    }
+    .casecri{
+        margin-top: 35px;
+    }
+    .rech{
+        display: flex;
+        width: 95%;
+        margin: 0 auto;
+        align-items: center;
+        border: 1px solid rgba(0, 255, 255, 0.322);
+        border-radius: 100px;
+        background-color: rgba(0, 255, 255, 0.322);
+    
+    }
+    .rech input{
+        width: 100%;
+        height: 50px;
+        border-radius: 100px;
+        font-size: 1.4rem;
+        border: none;
+        position: relative;
+        background: none;
+        border: none;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+}
+
+.casecri{
+    margin-top: 35px;
+}
+hr{
+    margin-top: 20px;
+}
+.s-media{
+       
+    margin-top: 12px;
+    margin: 5px;
+}
+
+.rech{
+    display: flex;
+    width: 40%;
+    margin: 0 auto;
+    align-items: center;
+    border: 1px solid rgba(0, 255, 255, 0.322);
+    border-radius: 100px;
+    background-color: rgba(0, 255, 255, 0.322);
+
+}
+.rech input{
+    width: 90%;
+    height: 50px;
+    border-radius: 100px;
+    font-size: 1.4rem;
+    border: none;
+    position: relative;
+    background: none;
+    border: none;
+}
+.rech input:focus{
+    outline-style: none;
+}
+.rech:hover{
+    outline-style: none;
+    background-color: rgba(240, 248, 255, 0.822);
+    
+}
+
+.logoseach{
+
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background: url('../image/loupe.png');
+    background-size: cover;
+    filter: invert();
+}
+.case p{
+    color: white;
+    font-size: 1.5rem;
+}
+.casecri a{
+    color: white;
+    font-size: 1.2rem;
+}
+
+@media all and (max-width: 991px){
+    .s-media{
+        margin-top: 55px;
+    }
+    .trait{
+        margin-top: -10px;
+    }
+    .coping{
+        margin-top: -25px;
+    }
+    .casecri{
+        margin-top: 35px;
+    }
+    .rech{
+        display: flex;
+        width: 95%;
+        margin: 0 auto;
+        align-items: center;
+        border: 1px solid rgba(0, 255, 255, 0.322);
+        border-radius: 100px;
+        background-color: rgba(0, 255, 255, 0.322);
+    
+    }
+    .rech input{
+        width: 100%;
+        height: 50px;
+        border-radius: 100px;
+        font-size: 1.4rem;
+        border: none;
+        position: relative;
+        background: none;
+        border: none;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+}
