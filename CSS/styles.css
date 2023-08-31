@@ -4,21 +4,6 @@ body{
 }
 
 
-
-.grand_carrer{
-    display: grid;
-    margin: 0 auto;
-}
-
-.mln{
-    display: flex;
-    width: 100%;
-    /* max-width: 1400px; */
-    /* grid-template-columns: 100%; */
-    flex-wrap: wrap;
-   /*  margin: 0 auto; */
-}
-
 a {
     text-decoration: none;
     color: black;
@@ -115,117 +100,14 @@ label{
 
 
 
-.carrenave{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100px;
-    max-width: 1400px;
-    grid-template-columns: 100%;
-    background-color: black;
-    margin: 0 auto;
-    justify-content: center;
-    
-}
-.manave{
-    width: 700px;
-    height: 50px;
-    background-color: aqua;
-    margin-top: 25px;
-    margin-left: 40px;
-    display: flex;
-    justify-content: flex-start;
-    max-width: 1400px;
-    grid-template-columns: 100%;
-    flex-wrap: wrap;
-    align-items: center;
-    list-style: none;
-}
-.logo1{
-    width: 80px;
-    height: 80px;
-    border-radius: 100%;
-    background-color: aqua;
-    display: grid;
-    align-items: center;
-    margin-left: 30px;
-    margin-top: 10px;
-}
-.mziklogo{
-    width: 30px;
-    height: 30px;
-    margin: 0 auto;
-    background-image: url('/image/lecteur-de-musique.png');
-    background-size: cover;
-}
 
-.gr1{
-    width: 250px;
-    height: 50px;
-    background-color: aqua;
-    align-items: center;
-    border-radius: 10px;
-    display: grid;
-    margin-left: 30px;
-    margin-top: 25px;
-}
 
-.snl{
-    margin: 0 auto;
-    color: #000;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-    letter-spacing: 1.56px;
-    float: left;
-    position: relative;
-    margin-top: 10px;
-    margin-left: 30px;
 
-}
-.sous_carrrer1{
-    width: 40px;
-    height: 40px;
-    border-radius: 100px;
-    background: url('/image/ecoute.png');
-    background-size: cover;
-    float: right;
-}
-.gr{
-    width: 150px;
-    height: 50px;
-    background-color: aqua;
-    align-items: center;
-    border-radius: 10px;
-    display: grid;
-    margin-left: 30px;
-    margin-top: 25px;
-}
-.snl2{
-    margin: 0 auto;
-    color: #000;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-    position: relative;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-.snl2:hover{
-    color: white;
-    transition: .1s ease-in-out;
-    transform: scale(1,2);
-    font-size: 1.3rem;
-}
-.sous_carrrer2{
-    width: 30px;
-    height: 30px;
-    border-radius: 100px;
-    background: url('/image/utilisateur.png');
-    background-size: cover;
-    float: right;
-    margin-top: -26px;
-}
+
+
+
+
+
 
 .rech{
     display: flex;
