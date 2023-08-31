@@ -13,10 +13,10 @@ body{
 .mln{
     display: flex;
     width: 100%;
-    max-width: 1400px;
-    grid-template-columns: 100%;
+    /* max-width: 1400px; */
+    /* grid-template-columns: 100%; */
     flex-wrap: wrap;
-    margin: 0 auto;
+   /*  margin: 0 auto; */
 }
 
 a {
@@ -235,6 +235,7 @@ label{
     border: 1px solid rgba(0, 255, 255, 0.322);
     border-radius: 100px;
     background-color: rgba(0, 255, 255, 0.322);
+    margin-top: 120px;
 
 }
 .rech input{

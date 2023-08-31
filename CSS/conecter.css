@@ -115,7 +115,7 @@ label{
 
 
 
-.carrenave{
+/* .carrenave{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -126,7 +126,7 @@ label{
     margin: 0 auto;
     justify-content: center;
     
-}
+} */
 .manave{
     width: 700px;
     height: 50px;
@@ -235,6 +235,7 @@ label{
     border: 1px solid rgba(0, 255, 255, 0.322);
     border-radius: 100px;
     background-color: rgba(0, 255, 255, 0.322);
+    margin-top: 120px;
 
 }
 .rech input{
